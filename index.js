@@ -9,6 +9,9 @@ const io = socketio(server);
 
 const { PORT = 8000 } = process.env;
 
+app.use(cors());
+app.use(router);
+
 
 
 
